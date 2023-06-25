@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ex-07"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Malieiev <maleev1820@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ex_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.11.1"
+sqlalchemy = "^2.0.17"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
